@@ -38,6 +38,14 @@ header{ /*estilização do cabeçalho*/
     height: 100%; /*ocupa 100% da altura do cabeçalho*/
 }
 
+nav{ /*menu navegação*/
+    display: flex; /*ativa o flexbox*/
+    gap: 2rem; /*espaço entre os itens*/
+    justify-content: center; /*espaço entre os elementos*/
+    aligh-items: center; /*alinha verticalmente*/
+    flex-wrap: wrap; /*permite a quebra de linha*/
+}
+
 .nav-links{ /*estilização do menu de navegação*/
     text-decoration: none; /*remove a decoração do texto*/
     color: var(--white); /*muda a cor do texto*/
