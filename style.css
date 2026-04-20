@@ -34,6 +34,10 @@ header{ /*estilização do cabeçalho*/
 }
 
 .box-img{ /*container da imagem da logo*/
+    height: 100%; /*ocupa 100% da altura do cabeçalho*/
+}
+
+.img-logomarca{
     max-width: 60px; /*ocupa largura de maxima de 60px*/
     height: 100%; /*ocupa 100% da altura do cabeçalho*/
 }
