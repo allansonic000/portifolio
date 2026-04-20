@@ -22,36 +22,36 @@ body{
     height: 100vh;
 }
 
-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-    padding: .8rem;
-    background-color: var(--cor4);
-    min-height: 30px;
+header{ /*estilização do cabeçalho*/
+    display: flex; /*ativa o flexbox*/
+    justify-content: space-around; /*espaço entre os elementos*/
+    align-items: center; /*alinha verticalmente*/
+    gap: 1rem; /*espaço entre os itens*/
+    flex-wrap: wrap; /*permite a quebra de linha*/
+    padding: .8rem; /*espaçamento interno*/
+    background-color: var(--cor4); /*cor de fundo*/
+    min-height: 30px; /*altura minima*/
 }
 
-.box-img{
-    max-width: 60px;
-    height: 100%;
+.box-img{ /*container da imagem da logo*/
+    max-width: 60px; /*ocupa largura de maxima de 60px*/
+    height: 100%; /*ocupa 100% da altura do cabeçalho*/
 }
 
-.nav-links{
-    text-decoration: none;
-    color: var(--white);
+.nav-links{ /*estilização do menu de navegação*/
+    text-decoration: none; /*remove a decoração do texto*/
+    color: var(--white); /*muda a cor do texto*/
 }
 
-.box-btn-actions{
-    display: flex;
-    gap: 1rem;
+.box-btn-actions{ /*containers de botões*/
+    display: flex; /*ativa o flexbox*/
+    gap: 1rem; /*espaço entre botões*/
 }
 
-button, .link-action {
-    padding: .6rem;
-    font-size: .9rem;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 4s;
+button, .link-action { /*estilo para botões e links com aparencia de botão*/
+    padding: .6rem; /*espacamento interno*/
+    font-size: .9rem; /*tamanho da fonte*/
+    border-radius: 10px; /*bordas arredondadas*/
+    cursor: pointer; /*cursor de clique*/
+    transition: 4s; /*animação suave*/
 }
