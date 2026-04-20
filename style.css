@@ -46,7 +46,7 @@ nav{ /*menu navegação*/
     display: flex; /*ativa o flexbox*/
     gap: 2rem; /*espaço entre os itens*/
     justify-content: center; /*espaço entre os elementos*/
-    aligh-items: center; /*alinha verticalmente*/
+    align-items: center; /*alinha verticalmente*/
     flex-wrap: wrap; /*permite a quebra de linha*/
 }
 
@@ -55,9 +55,22 @@ nav{ /*menu navegação*/
     color: var(--white); /*muda a cor do texto*/
 }
 
+.nav-links:hover{
+    color: var(--white);
+    transition: .4s;
+    text-decoration: underline;
+}
+
 .box-btn-actions{ /*containers de botões*/
     display: flex; /*ativa o flexbox*/
     gap: 1rem; /*espaço entre botões*/
+}
+
+.btn-actions{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    width: 100px;
 }
 
 button, .link-action { /*estilo para botões e links com aparencia de botão*/
