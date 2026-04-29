@@ -3,12 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 :root{
+    --white2: #cccccc;
     --white: #FFF;
     --cor1: #F2EFF5;
     --cor2: #547475;
     --cor3: #A8BEBD;
     --cor4: #062423;
     --cor5: #0E0E0F;
+    --cor6: #124746;
 }
 
 * {
@@ -79,6 +81,7 @@ button, .link-action { /*estilo para botões e links com aparencia de botão*/
     border-radius: 10px; /*bordas arredondadas*/
     cursor: pointer; /*cursor de clique*/
     transition: 4s; /*animação suave*/
+    text-align: center;
 }
 
 main{
@@ -126,5 +129,54 @@ strong{
 }
 
 .img-perfil{
-    border-radius: ;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.second-section{
+    background-color: var(--cor6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.second-section > ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.second-section > ul > li{
+    color: var(--white2);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.title{
+    color: var(--white);
+}
+
+.second-section > ul > li:hover{
+    color: var(--white);
+    transition: .4s;
+    cursor: default;
+}
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.third-section > div{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
