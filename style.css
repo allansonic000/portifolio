@@ -75,13 +75,20 @@ nav{ /*menu navegação*/
     width: 100px;
 }
 
+.btn-actions:hover{
+    background-color: black;
+    border: 1px solid black;
+}
+
 button, .link-action { /*estilo para botões e links com aparencia de botão*/
     padding: .6rem; /*espacamento interno*/
     font-size: .9rem; /*tamanho da fonte*/
     border-radius: 10px; /*bordas arredondadas*/
     cursor: pointer; /*cursor de clique*/
     transition: 4s; /*animação suave*/
+    text-decoration: none;
     text-align: center;
+    width: 200px;
 }
 
 main{
